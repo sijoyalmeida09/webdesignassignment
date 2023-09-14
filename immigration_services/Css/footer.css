@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+.foot
+{
+	background-color: #2E2E45;
+}
+#map-tile
+{
+overflow:hidden;
+width:70%;
+height:240px;
+margin: 30px;
+}
+
+#map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#map-tile span{
+	position: absolute;
+	bottom:30px;
+
+	left:16%;
+	width:67.6%;
+	text-align: center;
+	font-size: 1.6em;
+	background-color: #000;
+	color: #fff;
+	opacity:0.8;
+}
+
+
+.form{
+	margin: 20px;
+}
+
+label
+{
+	color: white;
+}
+
+#contact{margin-top: 20px;
+	margin-left:40px; 
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+
+}
+#address{
+	color: white;
+	font-size: 20px;
+	
+	padding: 20px;
+}
+
+
+/* floating*/
+.icon
+{
+	
+}
+
+/*floating end*/
