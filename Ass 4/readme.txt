@@ -11,6 +11,6 @@ The following fields were validated in this assignment:
 
 Steps to follow while going through this assignment:
 1.All the fields that are astriked(*) are mandatory.
-2. How did you hear can take more than one values.
+2. Instrument can take more than one values.
 3. once the item in dropdown is selected, a checkbox appears after checking this checkbox a textfield appears to enter the remark.
 4.after submitting the data will be displayed in the table below and the form will be cleared out. 
