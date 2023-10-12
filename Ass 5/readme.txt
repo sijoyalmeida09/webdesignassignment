@@ -1,5 +1,5 @@
 Steps to follow while going through this assignment:
-1. Various files will be displayed, once the “assignment6.zip” file is unzipped and opened. The image folder contains all the images used. The scss and css folder contains those files respectively.
+1. Various files will be displayed, once the “Ass 5.zip” file is unzipped and opened. The image folder contains all the images used. The scss and css folder contains those files respectively.
 2. The first page of this assignment is named as “index.html” and the second page is ‘more.html’. 
 3.The following functions were implemented in this assignment.
 CSS Grid layout: New arrival (Index page), Collection(More Page)
