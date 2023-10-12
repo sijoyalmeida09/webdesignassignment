@@ -1,0 +1,174 @@
+/* ========== Hero Area =========== */
+
+
+
+@mixin impo {
+  font-family: 'Aclonica', sans-serif;
+font-size: 13rem;
+line-height: 1;
+color: rgb(6, 48, 48);
+
+.i {
+  color: var(--primary-color);
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    color: var(--black-color);
+  }
+}
+}
+
+@mixin para {
+          font-size: 2rem;
+          margin-bottom: 6rem;
+          font-style: italic;
+          font-weight: bolder;
+          color: rgb(79, 23, 23);
+}
+
+@mixin corner-icon($name) {
+  .row {
+    background-image: url("../images/#{$name}.svg");
+    
+  }
+}
+
+
+.header .hero {
+    height: 80vh;
+    margin: 0 3rem;
+    @include corner-icon("cheese");
+    .row {
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 10rem;
+      position: relative;
+  
+      .col {
+        margin-left: 5rem;
+  
+        .subtitle {
+          display: block;
+          font-size: 3rem;
+          margin-bottom: 4rem;
+          font-style: italic;
+          font-weight: bolder;
+          color: white;
+  
+        }
+  
+        h1 {
+          @include impo;
+        }
+  
+        p {
+          @include para;
+        }
+  
+        .btn {
+          display: inline-block;
+          padding: 1.5rem 6rem;
+          border-radius: 1rem;
+          color: var(--white-color);
+          font-weight: 500;
+          font-size: 1.8rem;
+          background: var(--btn-gradient);
+          box-shadow: var(--box-shadow-1);
+        }
+      }
+  
+      img {
+        position: absolute;
+        right: 10%;
+        bottom: 30%;
+      }
+    }
+  }
+  
+  @media (max-width: 1600px) {
+    .header .hero .row img {
+      width: 40rem;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .header .hero .row .col h1 {
+      font-size: 8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header .hero {
+      .row {
+        .col {
+          position: absolute;
+          top: 10%;
+          margin-left: 0;
+  
+          .subtitle {
+            font-size: 1.6rem;
+          }
+  
+          h1 {
+            font-size: 7rem;
+          }
+  
+          p {
+            font-size: 1.6rem;
+          }
+  
+          
+        .btn {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+        }
+        
+        .btn1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        }
+  
+        img {
+          width: 40rem;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 567px) {
+    .header .hero {
+      height: 100vh;
+      margin: 0 1rem;
+  
+      .row {
+        .col {
+          .subtitle {
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+          }
+  
+          h1 {
+            font-size: 7rem;
+          }
+  
+          p {
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+          }
+  
+          .btn {
+            padding: 1.2rem 4rem;
+          }
+        }
+  
+        img {
+          width: 25rem;
+        }
+      }
+    }
+  }
