@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="calc-form">
+        <h1>Welcome, <span id="loggedInUser"></span></h1>
+        <input type="text" id="number1" placeholder="Number 1">
+        <div class="error" id="number1Error"></div>
+        <input type="text" id="number2" placeholder="Number 2">
+        <div class="error" id="number2Error"></div>
+        <button id="add">Add</button>
+        <button id="subtract">Subtract</button>
+        <button id="multiply">Multiply</button>
+        <button id="divide">Divide</button>
+        <input type="text" id="result" readonly>
+    </div>
+</body>
+</html>
